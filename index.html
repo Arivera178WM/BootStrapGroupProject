@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style type="text/css">
+        body { background: black !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <div class="p-3 mb-2 bg-dark text-white"></div>
-
-
+    <div class="p-3 mb-2 bg-transparent text-white">
+        <h1 class= "text-center">Spotify Top Charts</h1>
+    </div>
+    <div class="card mb-3 p-3 mb-2 bg-dark text-white rounded-pill text-center"  style="max-width: 1079;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="spotifyLogo.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <!-- <h1 class="card-title h1">Card title</h1> -->
+              <p class="text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
